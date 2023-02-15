@@ -3,6 +3,7 @@ package com.pjdevs.tanieirb.commands;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 
 import com.pjdevs.tanieirb.TanieirbModule;
+import com.pjdevs.tanieirb.commands.todo.TodoCommand;
 
 public class TanieirbCommandsModule extends TanieirbModule {
 
@@ -14,7 +15,7 @@ public class TanieirbCommandsModule extends TanieirbModule {
                     dispatcher.register(command.commandBuilder);
                 }
             }
-        });
+        });        
     }
 
     private static TanieirbCommand[] allCommands() {
