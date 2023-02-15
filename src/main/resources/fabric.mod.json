@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.pjdevs.tanieirb.ServerMod"
+      "com.pjdevs.tanieirb.TanieirbMod"
     ]
   },
   "mixins": [
